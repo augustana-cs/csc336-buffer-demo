@@ -9,6 +9,7 @@ void hello(char *tag)
     printf("Hello your %s is %s\n", tag, inp);
 }
 
-int main(int argc, char*argv[]) {
+int main() {
     hello("name");
+    return 0;
 }
